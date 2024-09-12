@@ -8,20 +8,21 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #000; /* Fond noir */
+            color: #f4f4f4; /* Texte en gris clair */
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #000;
-            color: white;
+            background-color: #111;
+            color: #f4f4f4;
             padding: 20px;
             text-align: center;
         }
 
         nav {
-            background-color: #333;
+            background-color: #222;
             padding: 10px;
         }
 
@@ -42,17 +43,31 @@
         }
 
         h2 {
-            color: #333;
+            color: #ffcc00; /* Titre en jaune doré pour le contraste */
+        }
+
+        p, li {
+            color: #f4f4f4;
         }
 
         footer {
             text-align: center;
-            background-color: #000;
-            color: white;
+            background-color: #111;
+            color: #f4f4f4;
             padding: 10px;
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image img {
+            width: 200px;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -66,9 +81,14 @@
         <a href="#information">Information</a>
         <a href="#parcours">Parcours</a>
         <a href="#origine">Origine</a>
+        <a href="#projets">Projets majeurs</a>
     </nav>
 
     <div class="container">
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Playboi_Carti_2018.jpg/1200px-Playboi_Carti_2018.jpg" alt="Playboi Carti">
+        </div>
+
         <section id="information">
             <h2>Informations générales</h2>
             <ul>
@@ -76,18 +96,28 @@
                 <li><strong>Nom de scène :</strong> Playboi Carti</li>
                 <li><strong>Date de naissance :</strong> 13 septembre 1996</li>
                 <li><strong>Âge :</strong> 27 ans</li>
-                <li><strong>Profession :</strong> Rappeur, chanteur, compositeur</li>
+                <li><strong>Origine :</strong> Atlanta, Géorgie, États-Unis</li>
+                <li><strong>Profession :</strong> Rappeur, chanteur, compositeur, mannequin</li>
+                <li><strong>Genre musical :</strong> Hip-hop, trap, rap expérimental</li>
             </ul>
         </section>
 
         <section id="parcours">
             <h2>Parcours musical</h2>
-            <p>Playboi Carti a débuté sa carrière dans le rap underground d'Atlanta. Il se fait connaître en 2017 avec son premier album "Playboi Carti". Sa musique se distingue par ses sonorités aériennes et des paroles qui marquent la culture trap moderne. Son second album, <em>Die Lit</em>, et le plus récent <em>Whole Lotta Red</em> (2020), le placent comme une figure majeure du rap expérimental.</p>
+            <p>Playboi Carti a commencé sa carrière dans la scène rap underground d'Atlanta. Il s'est rapidement fait un nom grâce à son style non conventionnel et son approche minimaliste de la musique. Il gagne en popularité avec des morceaux comme <em>Magnolia</em> et <em>wokeuplikethis*</em>, et son premier album éponyme en 2017 reçoit des critiques positives. Carti se distingue par son flow décontracté et ses productions atmosphériques.</p>
+            <p>Son deuxième album, <em>Die Lit</em> (2018), est un succès critique et commercial. Avec des sonorités aériennes et un usage innovant de l'autotune, il devient une figure incontournable du rap moderne. En 2020, il sort son très attendu album <em>Whole Lotta Red</em>, qui pousse encore plus loin les frontières du rap expérimental.</p>
         </section>
 
         <section id="origine">
             <h2>Origine et influences</h2>
-            <p>Né à Atlanta, en Géorgie, Playboi Carti a été influencé par la culture hip-hop locale, en particulier le mouvement trap. Il cite des artistes comme Gucci Mane, Lil Wayne et Kanye West comme des influences majeures. Son style non-conventionnel et sa présence visuelle marquent également son empreinte dans le monde de la mode.</p>
+            <p>Né à Atlanta, Playboi Carti a été exposé très jeune à la culture rap et trap qui a fait la renommée de la ville. Il cite des artistes comme Kanye West, A$AP Rocky, et Lil Uzi Vert comme des influences majeures, non seulement pour leur musique, mais aussi pour leur style unique et leur impact sur la culture populaire.</p>
+            <p>Playboi Carti s'inspire aussi du mouvement punk et de la culture gothique, ce qui se reflète dans ses choix esthétiques et dans la tonalité sombre de certains de ses projets, comme <em>Whole Lotta Red</em>.</p>
+        </section>
+
+        <section id="projets">
+            <h2>Projets majeurs et collaborations</h2>
+            <p>Au fil des années, Playboi Carti a collaboré avec de nombreux artistes de renom, notamment Lil Uzi Vert, Travis Scott, A$AP Rocky, et Kanye West. Il a également fait des apparitions sur les projets de Drake et Solange.</p>
+            <p>Son album <em>Whole Lotta Red</em> a marqué un tournant dans sa carrière, tant par ses sonorités crues que par ses visuels inspirés du mouvement punk. L'album a atteint la première place du Billboard 200 aux États-Unis lors de sa sortie en décembre 2020.</p>
         </section>
     </div>
 
